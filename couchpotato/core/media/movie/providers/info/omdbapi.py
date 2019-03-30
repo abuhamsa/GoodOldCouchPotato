@@ -18,8 +18,8 @@ autoload = 'OMDBAPI'
 class OMDBAPI(MovieProvider):
 
     urls = {
-        'search': 'http://www.omdbapi.com/?type=movie&%s',
-        'info': 'http://www.omdbapi.com/?type=movie&i=%s',
+        'search': 'http://www.omdbapi.com/?apikey=33c63807&type=movie&%s',
+        'info': 'http://www.omdbapi.com/?apikey=33c63807&type=movie&i=%s',
     }
 
     http_time_between_calls = 0
